@@ -1,0 +1,16 @@
+{
+  "seed": 24,
+  "n_history": 480,
+  "n_future": 30,
+  "acute_window": 7,
+  "chronic_window": 28,
+  "hrv_baseline_window": 28,
+  "low_readiness_std_threshold": 1.4,
+  "prior_var": 4.0,
+  "n_post_samples": 4000,
+  "feature_cols": [
+    "acute_load",
+    "rhr_dev",
+    "overnight_hrv_dev"
+  ]
+}
